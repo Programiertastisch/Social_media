@@ -1,0 +1,53 @@
+.profil{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 82px;
+}
+#profil-image{
+    height: 70px;
+}
+#hamburger-menu{
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+input[type='checkbox'] {
+    display: none; 
+  }
+  
+  label.toggle {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  #sidebarMenu {
+    display: none; 
+    position: fixed;
+    right: 0;
+    width: auto;
+    height: auto;
+    background-color: #333;
+    color: white;
+    transition: transform 0.3s ease; 
+  }
+  
+  input[type='checkbox']:checked ~ #sidebarMenu {
+    display: block; 
+  }
+  
+  .main-content-wrapper a {
+    display: block;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background: #030303;
+    border-bottom: 1px solid #4b4545;
+  }
+  
+  .main-content-wrapper a:hover {
+    background: #575757;
+  }
+  
